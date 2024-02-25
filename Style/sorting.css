@@ -1,0 +1,95 @@
+*,
+html{
+  margin: 0;
+  padding: 0;
+  font-family: Monospace;
+}
+#body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+#body h1{
+  font-weight: 900;
+  font-size: 24px;
+  color: #000;
+  position: absolute;
+  top: 50px;
+  text-shadow: 0 5px 10px #0004;
+}
+#body .p{
+  font-size: 12px;
+  color: #000;
+  position: absolute;
+  bottom: 5px;
+  margin: 10px;
+}
+
+#container{
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #0006;
+  border: solid 2px #000;
+  gap: 5px;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  box-shadow: 5px 10px 20px #0008;
+}
+.num{
+  width: 28px;
+  height: 28px;
+  border: solid 1.2px #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 40%;
+  background-color: #0006;
+  color: #fff9;
+}
+.controlButton{
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 80px;
+  bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,80px);
+  grid-template-rows: 40px;
+  gap: 10px;
+}
+.button{
+  border: none;
+  background-color: #000;
+  border-radius: 20px;
+  font-weight: 500;
+  color: #fff9;
+  font-size: 15px;
+  box-shadow: 0 5px 10px #eee3;
+}
+.button:active{
+  background-color: #fff9;
+  color: black;
+}
+/*.bgImage{*/
+/*  width: 100vw;*/
+/*  height: 100vh;*/
+/*  object-fit: cover;*/
+/*}*/
+#text{
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  text-align: center;
+}
